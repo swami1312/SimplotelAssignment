@@ -1,0 +1,180 @@
+.lorum-ipsum-container{
+    height: 90vh;
+    margin:0px;
+}
+.nav-content-container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.nav-bar{
+    
+    background-color:#e58272 ;
+   
+}
+.nav-content{
+font-size: medium;
+font-weight: bold;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+}
+.lorum-ipsum-content-image-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+}
+
+.lorum-ipsum-content-conatiner{
+    width: 50%;
+    background-image: linear-gradient(To right, #fef4af,#ffd2cf);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.lorum-ipsum-content{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+.lorum-ipsum-image{
+width: 50%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+height:100%
+
+}
+.heading{
+    font-family:sans-serif;
+    font-weight: bold;
+
+}
+.description{
+    font-family:sans-serif;
+   
+
+}
+.Click-button{
+
+    height: 40px;
+    width: 120px;
+    background-color:#ff7170 ;
+    border: none;
+    border-radius: 2px;
+    margin-top: 20px;
+    padding: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.lorum-ipsum-content-bottom-conatiner{
+    background-image: linear-gradient(To right, #fef4af,#ffd2cf);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    padding: 30px;
+}
+.row-container{
+    display: flex;
+    flex-direction: row;
+    /* background-color: #fff; */
+    gap: 20px;
+}
+.column-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bottom-col-images{
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+}
+.bottom-row-images{
+    height: 100%;
+    width: 250px;
+}
+.bottom-section-images-container{
+    width: 50%;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+.bottom-section-content-container{
+    background-color: #ff7170;
+    padding: 20px;
+    width :32%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bottom-heading{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    max-width: 100%;
+
+}
+.click-icon{
+    display: flex;
+    width: 60px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+.arrow-icon{
+    height: 15px;
+    width:20px
+}
+
+
+@media only screen and (min-width: 992px) {
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 991px) {
+  
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 767px) {
+  
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+
+}
